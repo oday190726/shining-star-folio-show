@@ -1,5 +1,4 @@
-
-import { Code, Server, Wind, Type, FileJson, PenTool } from 'lucide-react';
+import { Code, Server, Shield, Brain, Database, Smartphone, Globe, Cpu } from 'lucide-react';
 import { ReactNode } from 'react';
 
 interface Skill {
@@ -8,12 +7,14 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  { name: 'React', icon: <Code className="h-10 w-10 text-primary" /> },
-  { name: 'TypeScript', icon: <Type className="h-10 w-10 text-primary" /> },
-  { name: 'JavaScript', icon: <FileJson className="h-10 w-10 text-primary" /> },
+  { name: 'Flutter', icon: <Smartphone className="h-10 w-10 text-primary" /> },
+  { name: 'Java', icon: <Code className="h-10 w-10 text-primary" /> },
   { name: 'Node.js', icon: <Server className="h-10 w-10 text-primary" /> },
-  { name: 'Tailwind CSS', icon: <Wind className="h-10 w-10 text-primary" /> },
-  { name: 'Figma', icon: <PenTool className="h-10 w-10 text-primary" /> },
+  { name: 'ReactJS', icon: <Globe className="h-10 w-10 text-primary" /> },
+  { name: 'Cybersecurity', icon: <Shield className="h-10 w-10 text-primary" /> },
+  { name: 'AI/ML', icon: <Brain className="h-10 w-10 text-primary" /> },
+  { name: 'MySQL', icon: <Database className="h-10 w-10 text-primary" /> },
+  { name: 'Network Engineering', icon: <Cpu className="h-10 w-10 text-primary" /> },
 ];
 
 const Skills = () => {
