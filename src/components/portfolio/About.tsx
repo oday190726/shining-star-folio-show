@@ -6,7 +6,13 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/3 flex justify-center">
              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gradient-to-br from-primary to-blue-400 flex items-center justify-center">
-                <img src="/placeholder.svg" alt="Oday Sharqawi" className="w-[calc(100%-12px)] h-[calc(100%-12px)] rounded-full object-cover" />
+                {/* REPLACE THIS LINE WITH YOUR PHOTO */}
+                <img src="/src/assets/oday-photo.jpg" alt="Oday Sharqawi" className="w-[calc(100%-12px)] h-[calc(100%-12px)] rounded-full object-cover" />
+                {/* Example paths:
+                    - If photo is in public folder: src="/oday-photo.jpg"
+                    - If photo is in assets folder: src="/assets/oday-photo.jpg"
+                    - If using imported image: src={odayPhoto} (after importing)
+                */}
             </div>
           </div>
           <div className="md:w-2/3 text-lg text-foreground/80 space-y-4 text-center md:text-left">
